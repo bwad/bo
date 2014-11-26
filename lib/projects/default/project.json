@@ -1,0 +1,45 @@
+{
+  "mkdirp": ["models", "views", "collections", "templates", "pages", "css"],
+  "files": [ "Gruntfile.js", "package.json", "bower.json", "README.md"],
+  "app": [
+    {
+      "template": ["layout.jade"],
+      "dest": ["src", "pages", "layouts", "layout.jade"]
+    },
+    
+    {
+      "template": ["index.jade"],
+      "dest": ["src", "pages", "index.jade"]
+    },
+    
+    {
+      "template": ["main.js"],
+      "dest": ["src", "main.js"]
+    },
+    
+    {
+      "template": ["view_main.js"],
+      "dest": ["src", "views", "MainView.js"]
+    }, 
+    
+    {
+      "template": ["template_main.jade"],
+      "dest": ["src", "templates", "MainTmpl.jade"]
+    }, 
+    
+    {
+      "template": ["style.less"],
+      "dest": ["src", "css", "style.less"]
+    },
+    
+    {
+      "template": ["connect_example.js"],
+      "dest": ["connect", "example.js"]
+    }
+    
+  ],
+  "data": { 
+    "foo": "bar",
+    "wonder": "one"
+  }
+}

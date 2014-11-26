@@ -1,0 +1,19 @@
+{
+  "name": "bo",
+  "version": "0.0.1",
+  "description": "Backbone Only Generator",
+  "main": "index.js",
+  "bin": {
+    "bo": "bin/bo.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "underscore": "^1.6.0",
+    "commander": "^2.2.0"
+  }
+}
