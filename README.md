@@ -2,16 +2,17 @@
 
 `bo` is a commandline application for generating and working with backbone projects. 
 
-`bo`'s primary purpose at this point is generating simple backbone based projects for prototyping.
+`bo`'s primary purpose at this point is generating simple backbone based projects 
+for prototyping.
 
 #Dependencies
 
 `bo` makes use of the following fine tools/packages:
 
-- grunt
+- grunt/gulp
 - underscore
 - jade
-- commander
+- commander.js
 - backbone
 - jquery
 - bootstrap
